@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --dark-blue-1: #0E1B26;
+    --dark-blue-2: #011119;
+    --coral-1: #FF6C52;
+    --coral-2: #FD5038;
+    --orange: #FB5000;
+    --cream-1: #FDF6E4;
+    --cream-2: #FEE8BD;
+    --yellow: #FEBC40;
+    --teal-1: #96D3CF;
+    --teal-2: #3DDCCD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+    background: url("images/bottom-colors.svg") no-repeat bottom center fixed, var(--cream-1);
+    background-color: var(--cream-1);
+}
+
+.hero-section__logo{
+    width: 40em;
+}
+
+.logo-and-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.logo-and-link__instagram-handle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--orange);
+
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+
+    img{
+        width: 1.5rem;
+    }
+}
